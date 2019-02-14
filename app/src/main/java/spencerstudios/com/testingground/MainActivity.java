@@ -116,6 +116,11 @@ public class MainActivity extends AppCompatActivity {
             mp.release();
             mp = null;
         }
+
+        if(cdt!=null){
+            cdt.cancel();
+            cdt = null;
+        }
         super.onPause();
     }
 }
