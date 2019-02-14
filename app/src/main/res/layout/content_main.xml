@@ -9,27 +9,226 @@
     tools:context="spencerstudios.com.testingground.MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <TextView
-        android:id="@+id/tv"
-        android:layout_width="wrap_content"
+    <ScrollView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/comfortaa_bold"
-        android:textSize="50sp"
-        android:textColor="#fff"
-        android:layout_gravity="center_horizontal"
-        android:gravity="center_horizontal"/>
+        android:fillViewport="true"
+        android:nestedScrollingEnabled="true"
+        tools:ignore="UselessParent">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:fontFamily="@font/comfortaa_bold"
-        android:onClick="btnPlay"
-        android:textSize="17sp"
-        android:textAllCaps="false"
-        android:background="@android:color/transparent"
-        android:text="start"
-        android:textColor="#fff"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/btn_bg"
+                android:orientation="horizontal"
+                android:paddingEnd="16dp"
+                android:paddingStart="16dp">
+
+                <ImageView
+                    android:id="@+id/btn_play_res_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:onClick="btnPlay"
+                    android:src="@drawable/ic_play_circle_38dp"
+                    tools:ignore="ContentDescription" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ProgressBar
+                            android:id="@+id/pb_1"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:backgroundTint="@android:color/transparent"
+                            android:indeterminate="false"
+                            android:maxHeight="50dp"
+                            android:minHeight="50dp"
+                            android:progressDrawable="@drawable/custom_progress_bar_horizontal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="8dp"
+                            android:fontFamily="@font/comfortaa_bold"
+                            android:gravity="center_vertical"
+                            android:text="@string/res_one_label" />
+
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_arrow_downward_38dp"
+                    tools:ignore="ContentDescription" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/btn_bg"
+                android:orientation="horizontal"
+                android:paddingEnd="16dp"
+                android:paddingStart="16dp">
+
+                <ImageView
+                    android:id="@+id/btn_play_res_two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:onClick="btnPlay"
+                    android:src="@drawable/ic_play_circle_38dp"
+                    tools:ignore="ContentDescription" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ProgressBar
+                            android:id="@+id/pb_2"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:backgroundTint="@android:color/transparent"
+                            android:indeterminate="false"
+                            android:maxHeight="50dp"
+                            android:minHeight="50dp"
+                            android:progressDrawable="@drawable/custom_progress_bar_horizontal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="8dp"
+                            android:fontFamily="@font/comfortaa_bold"
+                            android:gravity="center_vertical"
+                            android:text="@string/res_two_label" />
+
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_arrow_downward_38dp"
+                    tools:ignore="ContentDescription" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/btn_bg"
+                android:orientation="horizontal"
+                android:paddingEnd="16dp"
+                android:paddingStart="16dp">
+
+                <ImageView
+                    android:id="@+id/btn_play_res_three"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:onClick="btnPlay"
+                    android:src="@drawable/ic_play_circle_38dp"
+                    tools:ignore="ContentDescription" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ProgressBar
+                            android:id="@+id/pb_3"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:backgroundTint="@android:color/transparent"
+                            android:indeterminate="false"
+                            android:maxHeight="50dp"
+                            android:minHeight="50dp"
+                            android:progressDrawable="@drawable/custom_progress_bar_horizontal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="8dp"
+                            android:fontFamily="@font/comfortaa_bold"
+                            android:gravity="center_vertical"
+                            android:text="@string/res_three_label" />
+
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_arrow_downward_38dp"
+                    tools:ignore="ContentDescription" />
+
+            </LinearLayout>
+
+            <include layout="@layout/fact_file"/>
+
+        </LinearLayout>
+
+    </ScrollView>
 
 </LinearLayout>

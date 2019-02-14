@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    android:layout_marginTop="16dp"
+    app:cardCornerRadius="3dp"
+    android:layout_marginStart="4dp"
+    android:layout_marginEnd="4dp"
+    android:layout_marginBottom="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#323232">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/comfortaa_bold"
+            android:textColor="#fff"
+            android:text="Fact File"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/comfortaa_bold"
+            android:text="Model" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:fontFamily="monospace"
+            android:text="Enforcement Droid Series 209 (ED-209)" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/comfortaa_bold"
+            android:text="Manufacturer" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:fontFamily="monospace"
+            android:text="Omni Consumer Products (OCP)" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/comfortaa_bold"
+            android:text="Measurements" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:fontFamily="monospace"
+            android:text="•  height: 8 ft (2.4 m)\n•  weight: 1 ton" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textColor="#fff"
+            android:fontFamily="@font/comfortaa_bold"
+            android:text="Arsenal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:fontFamily="monospace"
+            android:text="•  left arm, two 20 mm cannons\n•  right arm, one 20 mm cannon and a heat-seeking missile launcher capable of firing three rockets\n\nit also had additional combat programming, enabling it to melee attack at closer ranges. Its speech center could synthesize human voices for peacekeeping matters, or animal-like sounds when injured or angry." />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/comfortaa_bold"
+            android:text="Quotes" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:fontFamily="monospace"
+            android:text="@string/ed209_quote_one"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

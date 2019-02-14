@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">ED-209</string>
     <string name="action_settings">Settings</string>
+    <string name="ed209_quote_one">\"Please put down your weapon. You have 20 seconds to
+    comply....\n\nYou now have 15 seconds to comply. You are in direct violation of Penal Code
+    1.13, Section 9.....\n\nYou have 5 seconds to comply. 4. 3. 2. 1. I am now authorized to use
+    physical force!\"\n\n\"You are illegally parked on private property. You have 20
+    seconds to remove your vehicle\"</string>
+    <string name="res_one_label">Put Down Your Weapon</string>
+    <string name="res_two_label">Illegally Parked</string>
+    <string name="res_three_label">Angry Growl</string>
 </resources>
