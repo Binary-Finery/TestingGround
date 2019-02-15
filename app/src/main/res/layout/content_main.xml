@@ -35,10 +35,11 @@
 
                 <ImageView
                     android:id="@+id/btn_play_res_one"
+                    android:onClick="btnPlay"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:background="?selectableItemBackgroundBorderless"
                     android:layout_gravity="center_vertical"
-                    android:onClick="btnPlay"
                     android:src="@drawable/ic_play_circle_38dp"
                     tools:ignore="ContentDescription" />
 
@@ -70,6 +71,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_vertical"
                             android:layout_marginStart="8dp"
+                            android:textSize="12dp"
                             android:fontFamily="@font/comfortaa_bold"
                             android:gravity="center_vertical"
                             android:text="@string/res_one_label" />
@@ -81,8 +83,11 @@
 
 
                 <ImageView
+                    android:id="@+id/iv_res_one_save"
+                    android:onClick="save"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:background="?selectableItemBackgroundBorderless"
                     android:layout_gravity="center_vertical"
                     android:src="@drawable/ic_arrow_downward_38dp"
                     tools:ignore="ContentDescription" />
@@ -106,6 +111,7 @@
                     android:id="@+id/btn_play_res_two"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:background="?selectableItemBackgroundBorderless"
                     android:layout_gravity="center_vertical"
                     android:onClick="btnPlay"
                     android:src="@drawable/ic_play_circle_38dp"
@@ -139,6 +145,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_vertical"
                             android:layout_marginStart="8dp"
+                            android:textSize="12dp"
                             android:fontFamily="@font/comfortaa_bold"
                             android:gravity="center_vertical"
                             android:text="@string/res_two_label" />
@@ -150,8 +157,11 @@
 
 
                 <ImageView
+                    android:id="@+id/iv_res_two_save"
+                    android:onClick="save"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:background="?selectableItemBackgroundBorderless"
                     android:layout_gravity="center_vertical"
                     android:src="@drawable/ic_arrow_downward_38dp"
                     tools:ignore="ContentDescription" />
@@ -174,6 +184,7 @@
                     android:id="@+id/btn_play_res_three"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:background="?selectableItemBackgroundBorderless"
                     android:layout_gravity="center_vertical"
                     android:onClick="btnPlay"
                     android:src="@drawable/ic_play_circle_38dp"
@@ -206,6 +217,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_vertical"
+                            android:textSize="12dp"
                             android:layout_marginStart="8dp"
                             android:fontFamily="@font/comfortaa_bold"
                             android:gravity="center_vertical"
@@ -217,8 +229,11 @@
                 </LinearLayout>
 
                 <ImageView
+                    android:id="@+id/iv_res_three_save"
+                    android:onClick="save"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:background="?selectableItemBackgroundBorderless"
                     android:layout_gravity="center_vertical"
                     android:src="@drawable/ic_arrow_downward_38dp"
                     tools:ignore="ContentDescription" />
