@@ -23,7 +23,8 @@
         android:id="@+id/tv_file_path"
         android:fontFamily="monospace"
         android:layout_marginTop="16dp"
-        android:textColor="#3949ab"
+        android:textColor="#000"
+        android:textStyle="bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 </LinearLayout>

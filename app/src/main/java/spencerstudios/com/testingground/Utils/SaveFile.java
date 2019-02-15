@@ -9,6 +9,7 @@ import java.io.OutputStream;
 import android.content.Context;
 import android.os.Environment;
 import android.util.Log;
+import android.widget.Toast;
 
 import spencerstudios.com.testingground.Dialogs.DialogFactory;
 
@@ -54,6 +55,7 @@ public class SaveFile extends Thread {
                 DialogFactory.SavedDialog(ctx, sdcard + dir + File.separator + f.getPath());
 
             } catch (IOException e) {
+                Toast.makeText(ctx, "unable to audio file: " + e.getMessage(), Toast.LENGTH_LONG).show();
                 e.printStackTrace();
             }
         }
